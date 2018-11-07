@@ -27,20 +27,20 @@ You'll see here there is a menu on the left side of the view, here you will be a
 
 There are some key terms we need to discuss before we get started
 
-* **Allocation**
+* **Allocation**:
     the infrastructure specifications you have been allocated for a specific project (# of instances, RAM, memory, etc.)
-* **Instance**
+* **Instance**:
     a virtual machine (located on Nimbus servers, you access via the SSH)
-* **Instance Flavor**
+* **Instance Flavor**:
     the size of your instance (RAM, VCPUs, root disk, ephemeral disk)
-* **Key Pair**
+* **Key Pair**:
     this is a key you generate which allows you to login to your instance
-* **Security Groups**
+* **Security Groups**:
     these are the incoming/outgoing permissions you allow for your instance (IP addresses, ports, etc.).
     You must allow at least allow ssh connections to access your instance!
-* **IP Address**
+* **IP Address**:
     the virtual address of your instance
-* **Snapshot & Image**
+* **Snapshot & Image**:
     a snapshot is a copy of your Root Disk storage you create before terminating your instance. You can launch this image later as a new instance (useful for booting a fully configured virtual machine with all required applications pre-installed)
-* **Volume & Object Storage**
+* **Volume & Object Storage**:
     similar to an external hard drive you attach and detach to one or multiple instances (useful for big and important data or fully configured virtual machines).
