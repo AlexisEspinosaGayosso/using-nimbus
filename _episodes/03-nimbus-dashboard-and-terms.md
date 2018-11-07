@@ -25,7 +25,7 @@ You'll see here there is a menu on the left side of the view, here you will be a
 
 ## Key Terminology
 
-There are some key terms we need to discuss before we get started
+There are some key terms we need to discuss before we get started:
 
 * **Allocation**
     the infrastructure specifications you have been allocated for a specific project (# of instances, RAM, memory, etc.)
